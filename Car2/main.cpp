@@ -1,14 +1,21 @@
 //
 //  main.cpp
-//  Car2
+//  Car1
 //
-//  Created by Michalis on 25.09.2023.
+
 //
 
 #include <iostream>
+#include "Car.hpp"
+using namespace std;
+int main() {
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Car a("Audi A5", "White", 2021, 24000);
+    char* model=a.GetModel();
+    cout<<model<<endl;
+    
+    
+    
     return 0;
 }
+

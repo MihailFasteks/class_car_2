@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DBD118672AC14F3E00957823 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBD118662AC14F3E00957823 /* main.cpp */; };
+		DBD1186F2AC14F4C00957823 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBD1186D2AC14F4C00957823 /* Car.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DBD118632AC14F3E00957823 /* Car2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Car2; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD118662AC14F3E00957823 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DBD1186D2AC14F4C00957823 /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		DBD1186E2AC14F4C00957823 /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DBD118662AC14F3E00957823 /* main.cpp */,
+				DBD1186D2AC14F4C00957823 /* Car.cpp */,
+				DBD1186E2AC14F4C00957823 /* Car.hpp */,
 			);
 			path = Car2;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD1186F2AC14F4C00957823 /* Car.cpp in Sources */,
 				DBD118672AC14F3E00957823 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
